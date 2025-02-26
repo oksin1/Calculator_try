@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <header><h2>Calculator</h2></header><br><br> -->
+    <main>
+        <div class="calculator">
+            <input type="text" id="display">
+            <div class="buttons">
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="appendCharacter('/')">/</button>
+                <button onclick="appendCharacter('*')">X</button>
+                <button onclick="appendCharacter('-')">-</button>
+
+                <button onclick="appendCharacter('7')">7</button>
+                <button onclick="appendCharacter('8')">8</button>
+                <button onclick="appendCharacter('9')">9</button>
+                <button onclick="appendCharacter('+')">+</button>
+
+                <button onclick="appendCharacter('5')">5</button>
+                <button onclick="appendCharacter('6')">6</button>
+                <button onclick="appendCharacter('7')">7</button>
+                <button class="equal"onclick="CalculateResult()">=</button>
+
+                <button onclick="appendCharacter('1')">1</button>
+                <button onclick="appendCharacter('2')">2</button>
+                <button onclick="appendCharacter('3')">3</button>
+                <!-- <button onclick="CaluculateResult()">=</button> -->
+<br>           
+                <button onclick="appendCharacter('0')">0</button>
+                <button onclick="appendCharacter('.')">.</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <br><br>
+    <!-- <footer>Contact Me @ <div>kishorok@gmail.com</div></footer> -->
+</body>
+</html>
